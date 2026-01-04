@@ -1,0 +1,21 @@
+{
+  "name": "invid-theme",
+  "displayName": "invid-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "invid-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/invid-theme-color-theme.json"
+      }
+    ]
+  }
+}
